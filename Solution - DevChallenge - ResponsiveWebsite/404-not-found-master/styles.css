@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+/* BASE STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo, .title,{
+    color: #333333
+}
+
+
+/* BODY */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.85rem 5.5rem;
+    background: #fff;
+}
+
+/* HEADER */
+
+.header {
+    align-self: flex-start;
+}
+
+.header .logo {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMAGE */
+
+.image img{
+    width: 539px;
+    height: auto;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Space Mono", sans-serif;
+    width: 586px;
+    margin-left: 8.78rem;
+}
+
+.main-header {
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    max-width: 381px;
+    padding: 2.57rem 0 4.57rem 0;
+    color: #4F4F4F;
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    width: max-content;
+    padding: 1.6em 3em;
+    color: #fff;
+    background-color: #333333;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+
+/* media quaries*/
+
+@media screen and (max-width: 1280px) {
+    .container {
+        transform: scale(0.7);
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        padding: 1.42rem 1.71rem;
+    }
+
+    .container {
+        transform: scale(1);
+        flex-direction: column;
+        margin-bottom: 6.85rem;
+    }
+
+    .image{
+        margin: 4.57rem 0 4.2rem 0;
+    }
+    
+    .image img {
+        width: 286px;
+    }
+
+    .main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main-header {
+        font-size: 44px;
+        line-height: 71px;
+    }
+
+    .main-text {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 2rem 0 4.78rem 0;
+    }
+}
