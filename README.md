@@ -1,3 +1,3 @@
 # Dev-Challenges
 ## Solution - Dev challenges - Responsive Website
-- Challenge 1 : [**"404 Not Found"**](https://github.com/zathio/dev-challenges/tree/master/responsive-path/404-not-found)
+- Challenge 1 : [**"404 Not Found"**](https://github.com/dimma01/Dev-Challenges/tree/main/Solution%20-%20DevChallenge%20-%20ResponsiveWebsite/404-not-found-master)
