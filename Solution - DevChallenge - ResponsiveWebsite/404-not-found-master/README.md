@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="(https://aesthetic-pasca-8286be.netlify.app/)">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/dimma01/Dev-Challenges/edit/main/Solution%20-%20DevChallenge%20-%20ResponsiveWebsite/404-not-found-master">
       Solution
     </a>
     <span> | </span>
